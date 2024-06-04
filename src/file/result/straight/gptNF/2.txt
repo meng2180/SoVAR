@@ -1,0 +1,23 @@
+{
+    "weather" : ["rainy"],
+    "lighting": ["dark"],
+    "speedlimit": 30,
+    "intersection" : "no",
+    "T" : "no",
+    "carCount" : 2,
+    "laneCount" : 2,
+    "striker" : "Vehicle #1",
+    "impactPart": "side",
+    "carInformation" : {
+        "V1" : {
+            "behaviors" : [["follow lane", "brake", "steer left"]],
+            "direction" : "north",
+            "laneNumber" : 0
+        },
+        "V2" : {
+            "behaviors" : ["pull over right", "enter roadway from right", "cross over left"],
+            "direction" : "north",
+            "laneNumber" : 0
+        }
+    }
+}

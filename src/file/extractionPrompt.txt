@@ -1,0 +1,100 @@
+I will give you a car accident report. You should help me extract some information from the report. The answer includes "weather", "lighting", "speedlimit", "intersection", "T", "carCount", "laneCount", "striker", "impactPart" and "carInformation".
+
+For the "weather", it means the weather conditions when the accident happened. The answer is an array. The rules are as follows.
+(1) if it's sunny when the accident happened, "sunny" should be added into the "weather";
+(2) if it's clear, or there is no adverse weather conditions when the accident happened, "clear" should be added into the "weather";
+(3) if it's rainy when the accident happened, "rainy" should be added into the "weather";
+(4) if it's foggy when the accident happened, "foggy" should be added into the "weather";
+(5) if it's snowy when the accident happened, "snowy" should be added into the "weather";
+(6) if it's windy when the accident happened, "windy" should be added into the "weather";
+(7) if it's cloudy when the accident happened, "cloudy" should be added into the "weather";
+If nothing added, "unknown" should be added into the "weather".
+
+
+For the "lighting", it means the light conditions when the accident happened. The answer is a list. The rules are as follows.
+(1) if the lighting is bright, or it's at daylight when the accident happened, "bright" should be added into the "lighting";
+(2) if the lighting is normal when the accident happened, "normal" should be added into the "lighting";
+(3) if the lighting is dark, dusk, or it's at night when the accident happened, "dark" should be added into the "lighting";
+(4) if the road is lighted or there are streetlamps when the accident happened, "light" should be added into the "lighting";
+If nothing added, "unknown" should be added into the "lighting".
+
+
+For the "speedlimit", it means the minimum speed limit of all the roads. For example, if the speed limit is 80 KMPH and 100 KMPH of two roads, the answer of "speedlimit" is "80KMPH".
+If the unit of speedlimit in the report is only the "MPH", then the answer is "80MPH". If the speedlimit is not specific in the report, the answer is 0.
+
+For the "intersection", if the accident happened near or at an intersection or intersecting roadway, the answer of "intersection" is "yes"; If didn't the answer of "intersection" is "no".
+
+For the "T", it means if the accident happened near a T-intersection, Y-intersection, a three-legged or a three-way intersection, if didn't the answer of "intersection" is "no", else is "yes".
+
+For the "carCount", it means the count of cars described in the report except unknown cars. If there are 2 cars described in the report, then the answer of "carCount" is 2.
+
+For the "laneCount", it means the maximum lane count of all the roads. The lane count of a road means the total count in each direction.
+For example, if a road is one-way and has 2 lanes, then the lane count of this road is 2; If a road is two-way and has 2 lanes in each direction, then the lane count of this road is 4;
+There may be one or two road in this report, the answer should be the maximum lane count of all the roads.
+If the "laneCount" is not specific in the report, the answer is 0.
+
+For the "striker", it means the striker car of the accident, the answer is "V1" or "V2". For example, if V1 hit V2, then the answer of "striker" is "V1".
+
+For the "impactPart", it means the part of the victim car that was hit by the striker car. There are three answers of "impactPart" in total.
+(1) if the victim car's front was hit, the answer of "impactPart" is 1;
+(2) if the victim car's side was hit, the answer of "impactPart" is 2;
+(3) if the victim car's end was hit, the answer of "impactPart" is 3.
+If the "impactPart" is not specific in the report, the answer is 0.
+
+
+For the "carInformation", its answer is a list of each car's information.
+
+For each car's information, it includes "behaviors", "direction" and "laneNumber".
+For the "behaviors" of each car's information, it is an array of car's driving action and destination's lane number of this action.
+The rules you extract "behaviors" are as follows.
+(0) if the car proceeds to do an intended action but does not do actually, such as intending to turn right, this intended action must not be added to the "behaviors";
+(1) if the car is driving on the road at the start, ["follow lane"] should be added to the "behaviors";
+(2) if the car is at an intersection and making a left turn to lane 2, ["turn left", 2] should be added to the "behaviors";
+(3) if the car is at an intersection and making a right turn to lane 3, ["turn right", 3] should be added to the "behaviors";
+(4) if the car is turning around to lane 2, ["turn around", 2] should be added to the "behaviors";
+(5) if the car is stopping or parked, ["stop"] should be added to the "behaviors";
+(6) if the car is changing its driving lane to lane 3, but not retrograde, ["change lane", 3] should be added to the "behaviors";
+(7) if the car is proceeding into or going cross an intersection, ["go across"] should be added to the "behaviors";
+(8) if the car is retrograding by skidding over the left double yellow lines, going across the centerline of the road, drifting over the left line, veering into the opposite lane or changing to opposite lane due to proceed other car, ["retrograde"] should be added to the "behaviors";
+(9) if the car is driving out of the road and then hits the car parked by the roadside, ["drive off"] should be added to the "behaviors";
+(10) if the car is not on the road initially and then going onto the road, ["drive into"] should be added to the "behaviors";
+
+For the "direction" of each car's information, it means the car's driving direction at the start.
+There are 4 directions in total.
+(1) if the car is driving north, the answer of "direction" is "north";
+(2) if the car is driving east, the answer of "direction" is "east";
+(3) if the car is driving south, the answer of "direction" is "south";
+(4) if the car is driving west, the answer of "direction" is "west";
+If the "direction" is not specific in the report, the answer is "unknown".
+
+For the "laneNumber" of each car's information, it means the car's driving lane at the start.
+For example, if the car is driving on lane 2, the answer is 2; But if the lane number is not specified in the report, the answer of "laneNumber" is 0.
+Pay attention, for the number of the road lane, the most right lane is the lane 1.
+
+
+The ouput format must just be in json as follows.
+{
+    "weather" : [],
+    "lighting": [],
+    "speedlimit": ,
+    "intersection" : ,
+    "T" : ,
+    "carCount" : ,
+    "laneCount" : ,
+    "striker" : ,
+    "impactPart": ,
+    "carInformation" : {
+        "V1" : {
+            "behaviors" : [[""]],
+            "direction" : ,
+            "laneNumber" :
+        },
+        "V2" : {
+            "behaviors" : [[""]],
+            "direction" : ,
+            "laneNumber" :
+        }
+    }
+}
+
+Ok, it is your turn to give me the answer. And the report is :

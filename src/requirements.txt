@@ -1,0 +1,7 @@
+auto_mix_prep==0.2.0
+environs==10.3.0
+numpy==1.26.4
+Requests==2.32.3
+websocket_client==1.8.0
+websockets==12.0
+z3_solver==4.12.2.0

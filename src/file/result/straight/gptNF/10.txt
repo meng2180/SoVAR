@@ -1,0 +1,23 @@
+{
+    "weather" : ["clear"],
+    "lighting": ["dark"],
+    "speedlimit": 25,
+    "intersection" : "no",
+    "T" : "no",
+    "carCount" : 2,
+    "laneCount" : 2,
+    "striker" : "Vehicle 2",
+    "impactPart": "side",
+    "carInformation" : {
+        "V1" : {
+            "behaviors" : [["stop"]],
+            "direction" : "unknown",
+            "laneNumber" : 0
+        },
+        "V2" : {
+            "behaviors" : [["drive off"]],
+            "direction" : "unknown",
+            "laneNumber" : 0
+        }
+    }
+}

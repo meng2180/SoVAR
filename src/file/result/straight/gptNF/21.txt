@@ -1,0 +1,23 @@
+{
+    "weather" : ["clear"],
+    "lighting": ["bright"],
+    "speedlimit": 45,
+    "intersection" : "no",
+    "T" : "no",
+    "carCount" : 2,
+    "laneCount" : 2,
+    "striker" : "Vehicle #2",
+    "impactPart": "end",
+    "carInformation" : {
+        "V1" : {
+            "behaviors" : ["stop", "turn left"],
+            "direction" : "north",
+            "laneNumber" : 1
+        },
+        "V2" : {
+            "behaviors" : ["follow lane"],
+            "direction" : "north",
+            "laneNumber" : 1
+        }
+    }
+}

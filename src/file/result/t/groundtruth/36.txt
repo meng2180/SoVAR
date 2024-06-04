@@ -1,0 +1,23 @@
+{
+    "weather" : ["snowy"],
+    "lighting": ["bright"],
+    "speedlimit": "64KMPH",
+    "intersection" : "yes",
+    "T" : "yes",
+    "carCount" : 2,
+    "laneCount" : 2,
+    "striker" : "V2",
+    "impactPart": 2,
+    "carInformation" : {
+        "V1" : {
+            "behaviors" : [["follow lane"], ["go across"]],
+            "direction" : 1,
+            "laneNumber" : 1
+        },
+        "V2" : {
+            "behaviors" : [["follow lane"]],
+            "direction" : 2,
+            "laneNumber" : 1
+        }
+    }
+}
