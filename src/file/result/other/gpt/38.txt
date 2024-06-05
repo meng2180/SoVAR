@@ -1,0 +1,23 @@
+{
+    "weather" : ["clear"],
+    "lighting": ["bright"],
+    "speedlimit": "25MPH",
+    "intersection" : "yes",
+    "T" : "no",
+    "carCount" : 2,
+    "laneCount" : 7,
+    "striker" : "V2",
+    "impactPart": 2,
+    "carInformation" : {
+        "V1" : {
+            "behaviors" : [["follow lane"], ["turn left", 1]],
+            "direction" : "south",
+            "laneNumber" : 1
+        },
+        "V2" : {
+            "behaviors" : [["follow lane"]],
+            "direction" : "west",
+            "laneNumber" : 3
+        }
+    }
+}

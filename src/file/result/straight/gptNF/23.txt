@@ -1,0 +1,23 @@
+{
+    "weather" : ["clear"],
+    "lighting": ["dark", "light"],
+    "speedlimit": 30,
+    "intersection" : "no",
+    "T" : "no",
+    "carCount" : 2,
+    "laneCount" : 2,
+    "striker" : "Vehicle # 2",
+    "impactPart": "side",
+    "carInformation" : {
+        "V1" : {
+            "behaviors" : [["follow lane"]],
+            "direction" : "west",
+            "laneNumber" : 1
+        },
+        "V2" : {
+            "behaviors" : [["drive into"]],
+            "direction" : "east",
+            "laneNumber" : 0
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "weather" : ["rainy"],
+    "lighting": ["dark"],
+    "speedlimit": 45,
+    "intersection" : "no",
+    "T" : "no",
+    "carCount" : 2,
+    "laneCount" : 2,
+    "striker" : "Vehicle #1",
+    "impactPart": "front",
+    "carInformation" : {
+        "V1" : {
+            "behaviors" : [["skidded"]],
+            "direction" : "west",
+            "laneNumber" : 2
+        },
+        "V2" : {
+            "behaviors" : [[""]],
+            "direction" : "east",
+            "laneNumber" : 1
+        }
+    }
+}

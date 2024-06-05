@@ -1,0 +1,23 @@
+{
+    "weather" : ["clear"],
+    "lighting": ["unknown"],
+    "speedlimit": 50,
+    "intersection" : "yes",
+    "T" : "no",
+    "carCount" : 2,
+    "laneCount" : 2,
+    "striker" : "V2",
+    "impactPart": "side",
+    "carInformation" : {
+        "V1" : {
+            "behaviors" : [["stop"]],
+            "direction" : "north",
+            "laneNumber" : 1
+        },
+        "V2" : {
+            "behaviors" : [["go across"]],
+            "direction" : "east",
+            "laneNumber" : 1
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "weather" : ["clear"],
+    "lighting": ["bright"],
+    "speedlimit": "48kmph",
+    "intersection" : "no",
+    "T" : "no",
+    "carCount" : 2,
+    "laneCount" : 6,
+    "striker" : "V2",
+    "impactPart": 3,
+    "carInformation" : {
+        "V1" : {
+            "behaviors" : [["stop"]],
+            "direction" : 2,
+            "laneNumber" : 0
+        },
+        "V2" : {
+            "behaviors" : [["follow lane"]],
+            "direction" : 2,
+            "laneNumber" : 0
+        }
+    }
+}

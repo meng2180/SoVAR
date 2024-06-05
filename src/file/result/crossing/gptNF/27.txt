@@ -1,0 +1,23 @@
+{
+    "weather" : ["snowy"],
+    "lighting": ["bright"],
+    "speedlimit": 50,
+    "intersection" : "yes",
+    "T" : "no",
+    "carCount" : 2,
+    "laneCount" : 5,
+    "striker" : "V2",
+    "impactPart": "side",
+    "carInformation" : {
+        "V1" : {
+            "behaviors" : [["follow lane"]],
+            "direction" : "south",
+            "laneNumber" : 1
+        },
+        "V2" : {
+            "behaviors" : [["turn left"]],
+            "direction" : "north",
+            "laneNumber" : 1
+        }
+    }
+}

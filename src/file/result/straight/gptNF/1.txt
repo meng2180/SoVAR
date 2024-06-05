@@ -1,0 +1,23 @@
+{
+    "weather" : ["rainy"],
+    "lighting": ["unknown"],
+    "speedlimit": 70,
+    "intersection" : "no",
+    "T" : "no",
+    "carCount" : 2,
+    "laneCount" : 3,
+    "striker" : "V1",
+    "impactPart": "side",
+    "carInformation" : {
+        "V1" : {
+            "behaviors" : [["follow lane", "change lane"]],
+            "direction" : "north",
+            "laneNumber" : 1
+        },
+        "V2" : {
+            "behaviors" : [[""]],
+            "direction" : "east",
+            "laneNumber" : 1
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "weather" : ["cloudy"],
+    "lighting": ["unknown"],
+    "speedlimit": 30,
+    "intersection" : "no",
+    "T" : "no",
+    "carCount" : 2,
+    "laneCount" : 2,
+    "striker" : "V1",
+    "impactPart": "side",
+    "carInformation" : {
+        "V1" : {
+            "behaviors" : ["follow lane", "drive off", "turn left"],
+            "direction" : "south",
+            "laneNumber" : 1
+        },
+        "V2" : {
+            "behaviors" : ["follow lane", "stop", "turn left"],
+            "direction" : "south",
+            "laneNumber" : 1
+        }
+    }
+}

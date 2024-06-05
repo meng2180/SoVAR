@@ -1,0 +1,23 @@
+{
+    "weather" : ["unknown"],
+    "lighting": ["unknown"],
+    "speedlimit": "40KMPH",
+    "intersection" : "no",
+    "T" : "no",
+    "carCount" : 2,
+    "laneCount" : 2,
+    "striker" : "V1",
+    "impactPart": 2,
+    "carInformation" : {
+        "V1" : {
+            "behaviors" : [["follow lane"]],
+            "direction" : "north",
+            "laneNumber" : 1
+        },
+        "V2" : {
+            "behaviors" : [["drive into", 1]],
+            "direction" : "north",
+            "laneNumber" : 1
+        }
+    }
+}
