@@ -65,7 +65,7 @@ src
 
 **1. Install LGSVL**
 
-LGSVL simulator can be installed from https://github.com/lgsvl/simulator. The tutorial is on it as well.
+LGSVL simulator can be installed from https://github.com/lgsvl/simulator. The tutorial is on it as well. We are using the latest version,2021.3. LGSVL has made the difficult decision to suspend active development of SVL Simulator, as of January 1, 2022. The cloud had stopped running on June 30, 2022. Therefore, we use SORA-SVL to build our own server as a replacement.SORA-SVL can be installed from https://github.com/YuqiHuai/SORA-SVL
 
 
 **2. Install Apollo6.0**
