@@ -72,6 +72,10 @@ LGSVL simulator can be installed from https://github.com/lgsvl/simulator. The tu
 
 1) clone source code.
 
+```bash
+$ git clone https://github.com/ApolloAuto/apollo.git
+```
+
 2) pull docker image and enter the container.
 
 ```bash
@@ -108,11 +112,6 @@ bash scripts/bridge.sh
 **3. Install SoVAR**
 
 1) clone source code.
-
-```bash
-$ git clone https://github.com/meng2180/SoVAR.git
-```
-
 
 
 2) install dependencies.
