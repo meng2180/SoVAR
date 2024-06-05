@@ -13,8 +13,7 @@ src
 │   ├── report        				crash reports                  
 │   ├── result                      information extracted from crash reports   
 │   ├── apiKey.txt                  write your openai api-key here          
-│   ├── extractionPrompt.txt        prompt with few short learning      
-│   ├── extractionPromptNF.txt      prompt without few short learning      
+│   ├── extractionPrompt.txt        prompt with linguistic patterns            
 │   ├── map.txt                     road information  
 │   ├── report.txt                  input of SoVAR  
 │   └── result.txt                  output of gpt        
@@ -72,12 +71,6 @@ LGSVL simulator can be installed from https://github.com/lgsvl/simulator. The tu
 **2. Install Apollo6.0**
 
 1) clone source code.
-
-```bash
-$ git clone https://github.com/ApolloAuto/apollo.git
-```
-
-
 
 2) pull docker image and enter the container.
 
