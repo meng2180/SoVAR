@@ -11,7 +11,6 @@ The structure of folder "src" is as follows:
 src
 ├── file
 │   ├── report                      crash reports                  
-│   ├── result                      information extracted from crash reports   
 │   ├── apiKey.txt                  write your openai api-key here          
 │   ├── extractionPrompt.txt        prompt with linguistic patterns            
 │   ├── map.txt                     road information  
