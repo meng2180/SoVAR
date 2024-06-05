@@ -10,14 +10,14 @@ This repository provides the code of SoVAR.
 The structure of folder "src" is as follows:
 src
 ├── file
-│   ├── report        				          crash reports                  
+│   ├── report                      crash reports                  
 │   ├── result                      information extracted from crash reports   
 │   ├── apiKey.txt                  write your openai api-key here          
 │   ├── extractionPrompt.txt        prompt with linguistic patterns            
 │   ├── map.txt                     road information  
 │   ├── report.txt                  input of SoVAR  
 │   └── result.txt                  output of gpt        
-├── solver							                   solvers of car actions               
+├── solver		            solvers of car actions               
 ├── caculator.py                    main caculator of SoVAR  
 ├── generateWaypoints.py            generate waypoints          
 ├── gpt.py                          chat with gpt
