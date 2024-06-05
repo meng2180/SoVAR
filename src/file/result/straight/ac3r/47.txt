@@ -1,1 +1,0 @@
-{"behavior1":"stop,hit","behavior2":"enter,enter","carCount":"2","direction1":"E","direction2":"E","impactPart":"unknown","intersection":"no","laneCount":"1","laneNumber1":"100","laneNumber2":"100","lighting":"normal","speedlimit":"56","striker":"2","t":"no","weather":"normal"}

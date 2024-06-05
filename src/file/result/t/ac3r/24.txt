@@ -1,1 +1,0 @@
-{"behavior1":"travel,enter","behavior2":"travel,travel","carCount":"2","direction1":"S","direction2":"N","impactPart":"unknown","intersection":"yes","laneCount":"4","laneNumber1":"3","laneNumber2":"3","lighting":"normal","speedlimit":"89","striker":"1","t":"yes","weather":"cloud"}
