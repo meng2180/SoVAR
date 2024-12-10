@@ -169,3 +169,20 @@ The EGO car has the same start point and destination point as the report. But th
 
 Experiments above are the usage mode of SoVAR in practical application. You can rerun RQ1, RQ2 and RQ3 in the paper by modifying a few codes based on E1, E2 and E3.
 
+## Citation
+
+```shell
+@inproceedings{10.1145/3691620.3695037,
+author = {Guo, An and Zhou, Yuan and Tian, Haoxiang and Fang, Chunrong and Sun, Yunjian and Sun, Weisong and Gao, Xinyu and Luu, Anh Tuan and Liu, Yang and Chen, Zhenyu},
+title = {SoVAR: Build Generalizable Scenarios from Accident Reports for Autonomous Driving Testing},
+year = {2024},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3691620.3695037},
+doi = {10.1145/3691620.3695037},
+booktitle = {Proceedings of the 39th IEEE/ACM International Conference on Automated Software Engineering},
+pages = {268–280},
+numpages = {13},
+location = {Sacramento, CA, USA}
+}
+```
