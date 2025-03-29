@@ -1,6 +1,6 @@
 This repository provides the code of SoVAR.
 
-We've built a full-stack app with frontend and backend – come try it out!
+**We've built a full-stack app with frontend and backend – come try it out!**
 
 - **[App Version](https://github.com/meng2180/SoVAR_app)**
 
