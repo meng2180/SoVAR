@@ -1,7 +1,7 @@
 This repository provides the code of SoVAR.
 
 <div align="center">
-	<img src="https://github.com/meng2180/SoVAR/blob/main/fig-overview.png" alt="Editor" width="500">
+	<img src="https://github.com/meng2180/SoVAR/blob/main/fig-overview.png" alt="Editor" width="600">
 </div>
 
 
