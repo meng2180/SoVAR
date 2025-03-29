@@ -1,5 +1,8 @@
 This repository provides the code of SoVAR.
 
+![image](https://github.com/meng2180/SoVAR/blob/main/fig-overview.png)
+
+
 **We've built a full-stack app with frontend and backend – come try it out!**
 
 - **[App Version](https://github.com/meng2180/SoVAR_app)**
